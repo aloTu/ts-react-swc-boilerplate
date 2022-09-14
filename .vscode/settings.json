@@ -1,0 +1,20 @@
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "eslint.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }, //是否在保存的时候自动fix eslint
+    "eslint.options": {
+        //指定vscode的eslint所处理的文件的后缀
+        "extensions": [".js", ".vue", ".ts", ".tsx"]
+    },
+    "eslint.validate": [
+        //确定校验准则
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue",
+        "typescript",
+        "typescriptreact"
+    ]
+}

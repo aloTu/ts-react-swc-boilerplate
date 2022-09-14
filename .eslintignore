@@ -1,0 +1,6 @@
+src/*.d.ts
+node_modules/**
+dist/**
+commitlint.config.js
+webpack/*
+
